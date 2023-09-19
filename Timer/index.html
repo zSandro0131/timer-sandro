@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="timer" id="timer" >
+          <div class="hours" id="hours" >00</div>
+          <div class="separator">:</div>
+          <div class="minutes" id="minutes">00</div>
+          <div class="separator">:</div>
+          <div class="seconds" id="seconds">00</div>
+        </div>
+        <div class="text">
+          <h3>Select the hours, minutes and seconds to get started!</h3>
+        </div>
+        <div class="input">
+          <div class="hoursDiv">
+            <h2>Hours</h2>
+            <input
+              type="number"
+              class="hours-input"
+              id="hours-input"
+              max="99" value="00"
+            />
+          </div>
+          <div class="minutesDiv">
+            <h2>Minutes</h2>
+            <input type="number" class="minutes-input" id="minutes-input" max="59" value="00"
+            />
+          </div>
+          <div class="secondsDiv">
+            <h2>Seconds</h2>
+            <input type="number" class="seconds" id="seconds-input" max="59" value="00" />
+          </div>
+        </div>
+        <div class="start-btn">
+          <button id="start-btn">Start!</button>
+        </div>
+      </div>
+
+      <div class="audio">
+        <audio src="/Sound/SaveTube.io - Time up Alarm tone - Samsung Ringtones (128 kbps).mp3" id="audio"></audio>
+      </div>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
