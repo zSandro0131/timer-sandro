@@ -1,5 +1,7 @@
 const display = document.getElementById('timer');
 const startBtn = document.getElementById("start-btn");
+const stopAudioBtn = document.getElementById('stopAudio')
+const audio = document.getElementById("audio")
 
 startBtn.addEventListener('click', () => {
     const hours = document.getElementById("hours-input");
@@ -39,6 +41,10 @@ const timer = (duration, display) => {
     }, 1000);
 }
 
+
+stopAudioBtn.addEventListener('click' , ()=> {
+    audio.pause()
+})
 
 
     

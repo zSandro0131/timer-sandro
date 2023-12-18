@@ -92,3 +92,23 @@ body{
     background-color: rgb(209, 202, 202);
     transition: all .5s;
 }
+
+.stopSound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.stopSound button {
+    padding: 5px;
+    width: 4.5rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.stopSound button:hover{
+    background-color: rgb(209, 202, 202);
+    transition: all .5s;
+}
