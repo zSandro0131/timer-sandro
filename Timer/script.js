@@ -1,3 +1,5 @@
+const pergunta =  prompt('Alguma coisa')
+
 const display = document.getElementById('timer');
 const startBtn = document.getElementById("start-btn");
 const stopAudioBtn = document.getElementById('stopAudio')
